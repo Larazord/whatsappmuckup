@@ -55,8 +55,15 @@ p.hour{
   font-family: sans-serif;
   font-weight: bold;
 }
+.chatparent{
+  position: relative;
+  bottom: 52px;
+
+  margin-bottom: 52px;
+}
 .chatSection{
   position:relative;
+  overflow: hidden;
   width: 100%;
   top: 65px;
 }
