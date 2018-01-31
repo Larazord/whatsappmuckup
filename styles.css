@@ -31,6 +31,7 @@
   flex-direction: row;
   justify-content: space-around;
   font-size: 10px;
+  padding-right:6px;
   font-family: sans-serif;
   color: rgb(142,142,147);
   font:arial;
@@ -45,6 +46,14 @@
   flex-flow: column;
   height: 64px;
   width: 100%;
+}
+
+
+p.hour{
+  font-family: sans-serif;
+  padding-right: 8px;
+  font-size: 11px;
+  font:arial;
 }
 
 .statusbar{
@@ -172,10 +181,4 @@
 
 a{
   text-decoration: none;
-}
-
-p.hour{
-  font-family: sans-serif;
-  font-size: 11px;
-  font:arial;
 }
