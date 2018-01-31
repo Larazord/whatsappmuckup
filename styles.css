@@ -10,33 +10,6 @@
 
 }
 
-.tabbar{
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  bottom: 0px;
-  height: 49px;
-  width: 100%;
-  background-color: rgb(247,247,247);
-  border-top: 1px solid rgb(178,178,178);
-}
-.tabimg{
-  margin-top: 3px;
-  display: flex;
-  justify-content: space-around;
-
-}
-.tabimgtitles{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 10px;
-  padding-right:6px;
-  font-family: sans-serif;
-  color: rgb(142,142,147);
-  font:arial;
-}
-
 .navbar{
   background-color: rgb(247,247,247);
   border-bottom: 1px solid rgb(178,178,178);
@@ -177,6 +150,33 @@ p.hour{
 .data{
   display: flex;
   flex-direction: column;
+}
+
+.tabbar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  height: 49px;
+  width: 100%;
+  background-color: rgb(247,247,247);
+  border-top: 1px solid rgb(178,178,178);
+}
+.tabimg{
+  margin-top: 3px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.tabimgtitles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 10px;
+  padding-right:6px;
+  font-family: sans-serif;
+  color: rgb(142,142,147);
+  font:arial;
 }
 
 a{
