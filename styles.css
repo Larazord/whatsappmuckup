@@ -56,10 +56,11 @@ p.hour{
   font-weight: bold;
 }
 .chatSection{
-  position:relative;
-  overflow: hidden;
+  position:fixed;
+  overflow: auto;
   width: 100%;
   top: 65px;
+  bottom: 51px;
 }
 .optionsChat{
   height: 44px;
