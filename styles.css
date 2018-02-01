@@ -3,12 +3,6 @@
   padding: 0;
 }
 
-.main{
-  width: auto;
-  display: flex;
-  justify-content: center;
-
-}
 
 .navbar{
   background-color: rgb(247,247,247);
@@ -21,6 +15,11 @@
   width: 100%;
 }
 
+.statusbar{
+  height: 20px;
+  display:flex;
+  justify-content: space-between;
+}
 
 p.hour{
   font-family: sans-serif;
@@ -29,11 +28,6 @@ p.hour{
   font:arial;
 }
 
-.statusbar{
-  height: 20px;
-  display:flex;
-  justify-content: space-between;
-}
 
 .headwhats{
   height: 44px;
@@ -43,6 +37,7 @@ p.hour{
   justify-content: space-between;
   align-items: center;
 }
+
 .bluetext{
   font-size: 16px;
   font:arial;
@@ -55,12 +50,13 @@ p.hour{
   font-family: sans-serif;
   font-weight: bold;
 }
+
 .chatSection{
   position:fixed;
   overflow: auto;
   width: 100%;
-  top: 65px;
-  bottom: 51px;
+  top: 65px; /*Aqui termina el navbaar*/
+  bottom: 51px; /*Aqui empieza el tabbar*/
 }
 .optionsChat{
   height: 44px;
@@ -84,16 +80,17 @@ p.hour{
   justify-content: space-between;
   align-items: center;
 }
+
+.chatInfo{
+  display: flex;
+  flex-direction: row;
+}
 .icon{
   height: 56px;
   width: 56px;
   border-radius: 50%;
   margin-right: 10px;
   margin-left: 10px;
-}
-.chatInfo{
-  display: flex;
-  flex-direction: row;
 }
 .chatTitles{
   display: flex;
@@ -148,10 +145,6 @@ p.hour{
   font:Arial;
   font-family: sans-serif;
   color:rgb(152,152,152);
-}
-.data{
-  display: flex;
-  flex-direction: column;
 }
 
 .tabbar{
