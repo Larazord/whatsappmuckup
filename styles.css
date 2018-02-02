@@ -53,7 +53,7 @@ p.hour{
 
 .chatSection{
   position:fixed;
-  overflow: auto;
+  overflow: auto; /* for scroll */
   width: 100%;
   top: 65px; /*Aqui termina el navbaar*/
   bottom: 51px; /*Aqui empieza el tabbar*/
